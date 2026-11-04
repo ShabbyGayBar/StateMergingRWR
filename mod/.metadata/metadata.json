@@ -1,0 +1,12 @@
+{
+  "name": "Explorable Real-World Resources x States Merging",
+  "id": "",
+  "version": "0.0.0",
+  "supported_game_version": "1.13.*",
+  "short_description": "A standalone mod combining the States Merging Mod and Explorable Real-World Resources Mod.",
+  "tags": ["Gameplay", "Historical", "Map"],
+  "relationships": [],
+  "game_custom_data": {
+    "multiplayer_synchronized": true
+  }
+}
