@@ -1,0 +1,13 @@
+﻿l_polish:
+ rule_joi_ERR_workforce_ratio:0 "Podstawowy współczynnik siły roboczej"
+ setting_joi_ERR_workforce_ratio_40:0 "40%"
+ setting_joi_ERR_workforce_ratio_40_desc:0 "Ustawia podstawowy współczynnik siły roboczej na 40%."
+ setting_joi_ERR_workforce_ratio_35:0 "35% (domyślnie)"
+ setting_joi_ERR_workforce_ratio_35_desc:0 "Ustawia podstawowy współczynnik siły roboczej na 35%, czyli wartość domyślną w modzie #B Explorable Real-World Resources#!."
+ setting_joi_ERR_workforce_ratio_30:0 "30%"
+ setting_joi_ERR_workforce_ratio_30_desc:0 "Ustawia podstawowy współczynnik siły roboczej na 30%."
+ setting_joi_ERR_workforce_ratio_25:0 "25%"
+ setting_joi_ERR_workforce_ratio_25_desc:0 "Ustawia podstawowy współczynnik siły roboczej na 25%, czyli wartość domyślną w #B podstawowej wersji gry#!.\n@warning! Może to spowodować nadmierny wzrost #O wskaźnika urodzeń#! i nadmierne zwiększenie liczby [Concept('concept_radical', 'radykałów')]."
+ adjustment_40_working_adult_ratio_modifier:0 "Podstawowy współczynnik siły roboczej: 40%"
+ adjustment_30_working_adult_ratio_modifier:0 "Podstawowy współczynnik siły roboczej: 30%"
+ adjustment_25_working_adult_ratio_modifier:0 "Podstawowy współczynnik siły roboczej: 25%"

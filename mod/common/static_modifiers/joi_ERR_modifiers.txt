@@ -1,0 +1,17 @@
+﻿adjustment_40_working_adult_ratio_modifier = {#40% base ratio
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_working_adult_ratio_add = 0.05
+	state_peasants_consumption_multiplier_add = 0.05
+}
+
+adjustment_30_working_adult_ratio_modifier = {#30% base ratio
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_working_adult_ratio_add = -0.05
+	state_peasants_consumption_multiplier_add = -0.05
+}
+
+adjustment_25_working_adult_ratio_modifier = {#25% base ratio
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_working_adult_ratio_add = -0.10
+	state_peasants_consumption_multiplier_add = -0.1
+}

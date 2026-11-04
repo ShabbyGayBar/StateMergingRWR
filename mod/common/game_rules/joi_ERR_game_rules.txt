@@ -1,0 +1,15 @@
+﻿joi_ERR_workforce_ratio = {
+    default = joi_ERR_workforce_ratio_35
+
+    joi_ERR_workforce_ratio_40 = {
+    }
+
+    joi_ERR_workforce_ratio_35 = {
+    }
+
+    joi_ERR_workforce_ratio_30 = {
+    }
+
+    joi_ERR_workforce_ratio_25 = {
+    }
+}

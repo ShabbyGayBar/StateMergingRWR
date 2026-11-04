@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ rule_joi_ERR_workforce_ratio:0 "基础劳动力比例"
+ setting_joi_ERR_workforce_ratio_40:0 "40%"
+ setting_joi_ERR_workforce_ratio_40_desc:0 "设定基础劳动力比例为40%。"
+ setting_joi_ERR_workforce_ratio_35:0 "35%（默认）"
+ setting_joi_ERR_workforce_ratio_35_desc:0 "设定基础劳动力比例为#B 真实资源#!默认的35%。"
+ setting_joi_ERR_workforce_ratio_30:0 "30%"
+ setting_joi_ERR_workforce_ratio_30_desc:0 "设定基础劳动力比例为30%。"
+ setting_joi_ERR_workforce_ratio_25:0 "25%"
+ setting_joi_ERR_workforce_ratio_25_desc:0 "设定基础劳动力比例为#B 原版游戏#!默认的25%。\n@warning! 这可能导致#O 出生率#!异常增高和[concept_radical]异常增多。"
+ adjustment_40_working_adult_ratio_modifier:0 "基础劳动力比例：40%"
+ adjustment_30_working_adult_ratio_modifier:0 "基础劳动力比例：30%"
+ adjustment_25_working_adult_ratio_modifier:0 "基础劳动力比例：25%"

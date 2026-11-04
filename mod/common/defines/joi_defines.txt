@@ -1,0 +1,32 @@
+﻿NEconomy = {
+	MIN_POPS_PER_PROFESSION = 999						# A building can hire at least this many pops in a profession, even if it has fewer than this number of pops available
+
+	BASE_RESOURCE_DISCOVER_CHANCE = 0.03 		# Per day (1.0 = 1%)
+
+	RESOURCE_DISCOVER_MIN_FRACTION = 0.25		# Min fraction of resources that will be discovered for each successful roll
+	RESOURCE_DISCOVER_MAX_FRACTION = 0.5		# Max fraction of resources that will be discovered for each successful roll
+}
+
+NPops = {	 
+	WORKING_ADULT_RATIO_BASE = 0.35
+	DEPENDENT_CONSUMPTION_RATIO = 0.75
+
+	WORKING_ADULT_RATIO_SKEW_MAXIMUM = 10.0
+
+	CULTURAL_COMMUNITY_MAX_PER_MONTH_CHANCE = 0.08	
+
+	MARKET_MIGRATION_PER_WEEK_FACTOR = 10
+   	MARKET_MIGRATION_PER_WEEK_PER_TOTAL_POPULATION = 50000
+
+    MIGRATION_MAX_PER_STATE_BASE = 1000
+    MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 25
+
+    MARKET_MIGRATION_MIN_DIFFERENCE_IN_MIGRATION_ATTRACTION_TO_MOVE = 5			
+} 
+
+NMilitary = {
+    BOMBARDMENT_BUILDING_DAMAGE_BASE_CHANCE = 0.5                # Base daily chance to reduce the level of a random coastal building, scales with effective bombardment level    
+    BLOCKADE_WORLD_MARKET_ACCESS_IMPACT_SCALING = 0.95            # Reduction of world market access for blockaded world market hubs, scales against blockade level
+    BLOCKADE_SHIPPING_LANE_IMPACT_SCALING = 0.95                # Reduction of efficiency for blockaded shipping lanes, scales against blockade level of either start or end point, whichever is most blockaded
+}
+

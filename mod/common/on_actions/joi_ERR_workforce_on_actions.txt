@@ -1,0 +1,53 @@
+﻿# Extend vanilla hooks through child on_actions; do not replace vanilla effect blocks.
+on_game_started_after_lobby = {
+    on_actions = { joi_ERR_workforce_initialize }
+}
+
+on_country_released_as_independent = {
+    on_actions = { joi_ERR_workforce_sync_target }
+}
+
+on_country_released_as_own_subject = {
+    on_actions = { joi_ERR_workforce_sync_target }
+}
+
+on_country_released_as_company_subject = {
+    on_actions = { joi_ERR_workforce_sync_target }
+}
+
+on_country_released_as_overlord_subject = {
+    on_actions = { joi_ERR_workforce_sync_target }
+}
+
+on_revolution_start = {
+    on_actions = { joi_ERR_workforce_sync_target }
+}
+
+on_secession_start = {
+    on_actions = { joi_ERR_workforce_sync_target }
+}
+
+on_country_formed = {
+    on_actions = { joi_ERR_workforce_sync_country }
+}
+
+# Apply the final lobby rule selection once when the campaign begins.
+joi_ERR_workforce_initialize = {
+    effect = {
+        every_country = { joi_ERR_sync_workforce_ratio = yes }
+    }
+}
+
+# Vanilla release and uprising hooks store the new country in scope:target.
+joi_ERR_workforce_sync_target = {
+    effect = {
+        scope:target ?= { joi_ERR_sync_workforce_ratio = yes }
+    }
+}
+
+# Country formation supplies the formed country as the root scope. No periodic polling.
+joi_ERR_workforce_sync_country = {
+    effect = {
+        joi_ERR_sync_workforce_ratio = yes
+    }
+}

@@ -1,0 +1,51 @@
+﻿# Country scope. Safe to call repeatedly; keep only the selected workforce modifier.
+joi_ERR_sync_workforce_ratio = {
+    if = {
+        limit = {
+            has_modifier = adjustment_40_working_adult_ratio_modifier
+            NOT = { has_game_rule = joi_ERR_workforce_ratio_40 }
+        }
+        remove_modifier = adjustment_40_working_adult_ratio_modifier
+    }
+    if = {
+        limit = {
+            has_modifier = adjustment_30_working_adult_ratio_modifier
+            NOT = { has_game_rule = joi_ERR_workforce_ratio_30 }
+        }
+        remove_modifier = adjustment_30_working_adult_ratio_modifier
+    }
+    if = {
+        limit = {
+            has_modifier = adjustment_25_working_adult_ratio_modifier
+            NOT = { has_game_rule = joi_ERR_workforce_ratio_25 }
+        }
+        remove_modifier = adjustment_25_working_adult_ratio_modifier
+    }
+    if = {
+        limit = {
+            has_game_rule = joi_ERR_workforce_ratio_40
+            NOT = { has_modifier = adjustment_40_working_adult_ratio_modifier }
+        }
+        add_modifier = {
+            name = adjustment_40_working_adult_ratio_modifier
+        }
+    }
+    if = {
+        limit = {
+            has_game_rule = joi_ERR_workforce_ratio_30
+            NOT = { has_modifier = adjustment_30_working_adult_ratio_modifier }
+        }
+        add_modifier = {
+            name = adjustment_30_working_adult_ratio_modifier
+        }
+    }
+    if = {
+        limit = {
+            has_game_rule = joi_ERR_workforce_ratio_25
+            NOT = { has_modifier = adjustment_25_working_adult_ratio_modifier }
+        }
+        add_modifier = {
+            name = adjustment_25_working_adult_ratio_modifier
+        }
+    }
+}

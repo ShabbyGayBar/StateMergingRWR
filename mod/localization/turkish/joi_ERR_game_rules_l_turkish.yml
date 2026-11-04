@@ -1,0 +1,13 @@
+﻿l_turkish:
+ rule_joi_ERR_workforce_ratio:0 "Temel İş Gücü Oranı"
+ setting_joi_ERR_workforce_ratio_40:0 "%40"
+ setting_joi_ERR_workforce_ratio_40_desc:0 "Temel iş gücü oranını %40 olarak ayarlar."
+ setting_joi_ERR_workforce_ratio_35:0 "%35 (Varsayılan)"
+ setting_joi_ERR_workforce_ratio_35_desc:0 "Temel iş gücü oranını #B Explorable Real-World Resources#! modunun varsayılan değeri olan %35 olarak ayarlar."
+ setting_joi_ERR_workforce_ratio_30:0 "%30"
+ setting_joi_ERR_workforce_ratio_30_desc:0 "Temel iş gücü oranını %30 olarak ayarlar."
+ setting_joi_ERR_workforce_ratio_25:0 "%25"
+ setting_joi_ERR_workforce_ratio_25_desc:0 "Temel iş gücü oranını #B temel oyunun#! varsayılan değeri olan %25 olarak ayarlar.\n@warning! Bu, #O doğum oranının#! anormal derecede yükselmesine ve [concept_radical] sayısının anormal derecede artmasına neden olabilir."
+ adjustment_40_working_adult_ratio_modifier:0 "Temel İş Gücü Oranı: %40"
+ adjustment_30_working_adult_ratio_modifier:0 "Temel İş Gücü Oranı: %30"
+ adjustment_25_working_adult_ratio_modifier:0 "Temel İş Gücü Oranı: %25"

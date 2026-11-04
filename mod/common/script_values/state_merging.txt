@@ -1,0 +1,5 @@
+﻿
+greek_homeland_states_owned_to_activate_min = 1
+greek_homeland_states_owned_to_complete_min = 2
+greek_homeland_states_owned_to_complete_max = 5
+byzantium_state_region_owned_to_complete = 4
