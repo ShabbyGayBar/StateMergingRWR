@@ -11,3 +11,6 @@
  adjustment_40_working_adult_ratio_modifier:0 "Base Workforce Ratio: 40%"
  adjustment_30_working_adult_ratio_modifier:0 "Base Workforce Ratio: 30%"
  adjustment_25_working_adult_ratio_modifier:0 "Base Workforce Ratio: 25%"
+ #
+ building_group_bg_ship_construction_employee_mult: "Shipyard Employees"
+ building_group_bg_ship_construction_employee_mult_desc: "A bonus or penalty to the number of shipyard employees"

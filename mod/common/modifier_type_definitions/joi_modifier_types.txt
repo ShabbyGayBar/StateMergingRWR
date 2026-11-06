@@ -7,3 +7,12 @@
 	}
 }
 
+REPLACE_OR_CREATE:building_group_bg_ship_construction_employee_mult = {
+	decimals=1
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+

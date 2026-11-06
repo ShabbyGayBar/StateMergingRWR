@@ -11,3 +11,6 @@
  adjustment_40_working_adult_ratio_modifier:0 "Базовая доля рабочей силы: 40%"
  adjustment_30_working_adult_ratio_modifier:0 "Базовая доля рабочей силы: 30%"
  adjustment_25_working_adult_ratio_modifier:0 "Базовая доля рабочей силы: 25%"
+ #
+ building_group_bg_ship_construction_employee_mult: "Работники верфей"
+ building_group_bg_ship_construction_employee_mult_desc: "Бонус или штраф к числу работников верфей"

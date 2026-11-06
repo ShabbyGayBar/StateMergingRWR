@@ -82,7 +82,7 @@ REPLACE_OR_CREATE:state_trait_bohemia_ironfield = {#波西米亚黄铜
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
-		building_iron_mine_throughput_add = 0.1
+		building_copper_mine_throughput_add = 0.1
 	}
 }
 
@@ -146,7 +146,7 @@ REPLACE_OR_CREATE:state_trait_homs_ironfield = {#霍姆斯黄铜
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
-		building_iron_mine_throughput_add = 0.1
+		building_copper_mine_throughput_add = 0.1
 	}
 }
 
@@ -1797,4 +1797,222 @@ REPLACE_OR_CREATE:state_trait_kryvyi_rih_ironfield = {#克里维里赫铁矿
     modifier = {
         building_iron_mine_throughput_add = 0.15
     }
+}
+
+# 法伦大铜山
+REPLACE_OR_CREATE:state_trait_falun_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.2
+	}
+}
+
+# 康沃尔铜矿区
+REPLACE_OR_CREATE:state_trait_cornwall_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.2
+	}
+}
+
+# 别子铜山
+REPLACE_OR_CREATE:state_trait_besshi_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 里奥廷托铜硫矿区
+REPLACE_OR_CREATE:state_trait_riotinto_basin = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_sulfur_mine_throughput_add = 0.10
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 下西里西亚铜页岩矿带
+REPLACE_OR_CREATE:state_trait_lower_silesia_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 什帕尼亚多利纳铜矿区
+REPLACE_OR_CREATE:state_trait_spania_dolina_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 蒙特卡蒂尼铜矿区
+REPLACE_OR_CREATE:state_trait_montecatini_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.10
+	}
+}
+
+# 足尾铜山
+REPLACE_OR_CREATE:state_trait_ashio_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 勒罗斯铜矿区
+REPLACE_OR_CREATE:state_trait_roros_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 曼斯费尔德铜页岩矿区
+REPLACE_OR_CREATE:state_trait_mansfeld_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 博尔铜矿区
+REPLACE_OR_CREATE:state_trait_bor_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 基威诺铜矿带
+REPLACE_OR_CREATE:state_trait_keweenaw_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.20
+	}
+}
+
+
+# 卡纳内阿铜矿区
+REPLACE_OR_CREATE:state_trait_cananea_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 丘基卡马塔铜矿
+REPLACE_OR_CREATE:state_trait_chuquicamata_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.20
+	}
+}
+
+# 东川铜矿区
+REPLACE_OR_CREATE:state_trait_dongchuan_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 铜陵铜矿区
+REPLACE_OR_CREATE:state_trait_tongling_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 凯特里铜矿带
+REPLACE_OR_CREATE:state_trait_khetri_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.10
+	}
+}
+
+# 辛格布姆铜矿带
+REPLACE_OR_CREATE:state_trait_singhbhum_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 阿仁铜山
+REPLACE_OR_CREATE:state_trait_ani_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 杰兹卡兹甘铜矿区
+REPLACE_OR_CREATE:state_trait_zhezkazgan_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.20
+	}
+}
+
+# 肯尼科特铜矿区
+REPLACE_OR_CREATE:state_trait_kennecott_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+# 达克敦铜矿盆地
+REPLACE_OR_CREATE:state_trait_ducktown_copper_basin = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.10
+	}
+}
+
+# 佛蒙特铜矿带
+REPLACE_OR_CREATE:state_trait_vermont_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.10
+	}
+}
+
+# 奥基普铜矿区
+REPLACE_OR_CREATE:state_trait_okiep_copperfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_copper_mine_throughput_add = 0.15
+	}
 }

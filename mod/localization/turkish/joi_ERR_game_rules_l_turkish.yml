@@ -11,3 +11,6 @@
  adjustment_40_working_adult_ratio_modifier:0 "Temel İş Gücü Oranı: %40"
  adjustment_30_working_adult_ratio_modifier:0 "Temel İş Gücü Oranı: %30"
  adjustment_25_working_adult_ratio_modifier:0 "Temel İş Gücü Oranı: %25"
+ #
+ building_group_bg_ship_construction_employee_mult: "Tersane Çalışanları"
+ building_group_bg_ship_construction_employee_mult_desc: "Tersane çalışanlarının sayısına uygulanan bonus veya ceza"

@@ -1,10 +1,5 @@
 ﻿NEconomy = {
 	MIN_POPS_PER_PROFESSION = 999						# A building can hire at least this many pops in a profession, even if it has fewer than this number of pops available
-
-	BASE_RESOURCE_DISCOVER_CHANCE = 0.03 		# Per day (1.0 = 1%)
-
-	RESOURCE_DISCOVER_MIN_FRACTION = 0.25		# Min fraction of resources that will be discovered for each successful roll
-	RESOURCE_DISCOVER_MAX_FRACTION = 0.5		# Max fraction of resources that will be discovered for each successful roll
 }
 
 NPops = {	 
