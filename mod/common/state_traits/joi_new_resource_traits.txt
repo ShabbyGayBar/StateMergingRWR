@@ -782,6 +782,15 @@ REPLACE_OR_CREATE:state_trait_yangtze_river_delta = {#长江三角洲
 	}
 }
 
+REPLACE_OR_CREATE:state_trait_nile_river_delta = {#尼罗河三角洲
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.25
+		building_group_bg_plantations_throughput_add = 0.25
+	}
+}
+
 REPLACE_OR_CREATE:state_trait_ili_river_delta = {#伊犁河谷
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
@@ -1176,8 +1185,8 @@ REPLACE_OR_CREATE:state_trait_pannonian_plain = {#潘诺尼亚平原
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 
 	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.1
-        building_group_bg_ranching_throughput_add = 0.1
+		building_group_bg_agriculture_throughput_add = 0.2
+        building_group_bg_ranching_throughput_add = 0.2
         unit_provinces_lost_mult = 0.15
         battle_defense_owned_province_mult = -0.05
 	}
@@ -1432,7 +1441,6 @@ REPLACE_OR_CREATE:state_trait_mount_lebanon = {#黎巴嫩山区
 		state_infrastructure_mult = -0.05
 		battle_defense_owned_province_mult = 0.1
 		unit_provinces_lost_mult = -0.15
-		building_group_bg_silk_plantations_throughput_add = 0.15
 	}
 }
 
@@ -1579,8 +1587,8 @@ REPLACE_OR_CREATE:state_trait_north_china_plains = {#华北平原
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.05
-		building_group_bg_plantations_throughput_add = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
 		state_infrastructure_add = 10
 	}
 }
@@ -1609,8 +1617,8 @@ REPLACE_OR_CREATE:state_trait_west_europe_plains = {#西欧平原
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.05
-		building_group_bg_plantations_throughput_add = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
 		state_infrastructure_add = 20
 	}
 }
@@ -1799,8 +1807,7 @@ REPLACE_OR_CREATE:state_trait_kryvyi_rih_ironfield = {#克里维里赫铁矿
     }
 }
 
-# 法伦大铜山
-REPLACE_OR_CREATE:state_trait_falun_copperfield = {
+REPLACE_OR_CREATE:state_trait_falun_copperfield = {# 法伦大铜山
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1808,8 +1815,7 @@ REPLACE_OR_CREATE:state_trait_falun_copperfield = {
 	}
 }
 
-# 康沃尔铜矿区
-REPLACE_OR_CREATE:state_trait_cornwall_copperfield = {
+REPLACE_OR_CREATE:state_trait_cornwall_copperfield = {# 康沃尔铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1817,8 +1823,7 @@ REPLACE_OR_CREATE:state_trait_cornwall_copperfield = {
 	}
 }
 
-# 别子铜山
-REPLACE_OR_CREATE:state_trait_besshi_copperfield = {
+REPLACE_OR_CREATE:state_trait_besshi_copperfield = {# 别子铜山
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1826,8 +1831,7 @@ REPLACE_OR_CREATE:state_trait_besshi_copperfield = {
 	}
 }
 
-# 里奥廷托铜硫矿区
-REPLACE_OR_CREATE:state_trait_riotinto_basin = {
+REPLACE_OR_CREATE:state_trait_riotinto_basin = {# 里奥廷托铜硫矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1836,8 +1840,7 @@ REPLACE_OR_CREATE:state_trait_riotinto_basin = {
 	}
 }
 
-# 下西里西亚铜页岩矿带
-REPLACE_OR_CREATE:state_trait_lower_silesia_copperfield = {
+REPLACE_OR_CREATE:state_trait_lower_silesia_copperfield = {# 下西里西亚铜页岩矿带
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1845,8 +1848,7 @@ REPLACE_OR_CREATE:state_trait_lower_silesia_copperfield = {
 	}
 }
 
-# 什帕尼亚多利纳铜矿区
-REPLACE_OR_CREATE:state_trait_spania_dolina_copperfield = {
+REPLACE_OR_CREATE:state_trait_spania_dolina_copperfield = {# 什帕尼亚多利纳铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1854,8 +1856,7 @@ REPLACE_OR_CREATE:state_trait_spania_dolina_copperfield = {
 	}
 }
 
-# 蒙特卡蒂尼铜矿区
-REPLACE_OR_CREATE:state_trait_montecatini_copperfield = {
+REPLACE_OR_CREATE:state_trait_montecatini_copperfield = {# 蒙特卡蒂尼铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1863,8 +1864,7 @@ REPLACE_OR_CREATE:state_trait_montecatini_copperfield = {
 	}
 }
 
-# 足尾铜山
-REPLACE_OR_CREATE:state_trait_ashio_copperfield = {
+REPLACE_OR_CREATE:state_trait_ashio_copperfield = {# 足尾铜山
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1872,8 +1872,7 @@ REPLACE_OR_CREATE:state_trait_ashio_copperfield = {
 	}
 }
 
-# 勒罗斯铜矿区
-REPLACE_OR_CREATE:state_trait_roros_copperfield = {
+REPLACE_OR_CREATE:state_trait_roros_copperfield = {# 勒罗斯铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1881,8 +1880,7 @@ REPLACE_OR_CREATE:state_trait_roros_copperfield = {
 	}
 }
 
-# 曼斯费尔德铜页岩矿区
-REPLACE_OR_CREATE:state_trait_mansfeld_copperfield = {
+REPLACE_OR_CREATE:state_trait_mansfeld_copperfield = {# 曼斯费尔德铜页岩矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1890,8 +1888,7 @@ REPLACE_OR_CREATE:state_trait_mansfeld_copperfield = {
 	}
 }
 
-# 博尔铜矿区
-REPLACE_OR_CREATE:state_trait_bor_copperfield = {
+REPLACE_OR_CREATE:state_trait_bor_copperfield = {# 博尔铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1899,8 +1896,7 @@ REPLACE_OR_CREATE:state_trait_bor_copperfield = {
 	}
 }
 
-# 基威诺铜矿带
-REPLACE_OR_CREATE:state_trait_keweenaw_copperfield = {
+REPLACE_OR_CREATE:state_trait_keweenaw_copperfield = {# 基威诺铜矿带
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1908,9 +1904,7 @@ REPLACE_OR_CREATE:state_trait_keweenaw_copperfield = {
 	}
 }
 
-
-# 卡纳内阿铜矿区
-REPLACE_OR_CREATE:state_trait_cananea_copperfield = {
+REPLACE_OR_CREATE:state_trait_cananea_copperfield = {# 卡纳内阿铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1918,8 +1912,7 @@ REPLACE_OR_CREATE:state_trait_cananea_copperfield = {
 	}
 }
 
-# 丘基卡马塔铜矿
-REPLACE_OR_CREATE:state_trait_chuquicamata_copperfield = {
+REPLACE_OR_CREATE:state_trait_chuquicamata_copperfield = {# 丘基卡马塔铜矿
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1927,8 +1920,7 @@ REPLACE_OR_CREATE:state_trait_chuquicamata_copperfield = {
 	}
 }
 
-# 东川铜矿区
-REPLACE_OR_CREATE:state_trait_dongchuan_copperfield = {
+REPLACE_OR_CREATE:state_trait_dongchuan_copperfield = {# 东川铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1936,8 +1928,7 @@ REPLACE_OR_CREATE:state_trait_dongchuan_copperfield = {
 	}
 }
 
-# 铜陵铜矿区
-REPLACE_OR_CREATE:state_trait_tongling_copperfield = {
+REPLACE_OR_CREATE:state_trait_tongling_copperfield = {# 铜陵铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1945,8 +1936,7 @@ REPLACE_OR_CREATE:state_trait_tongling_copperfield = {
 	}
 }
 
-# 凯特里铜矿带
-REPLACE_OR_CREATE:state_trait_khetri_copperfield = {
+REPLACE_OR_CREATE:state_trait_khetri_copperfield = {# 凯特里铜矿带
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1954,8 +1944,7 @@ REPLACE_OR_CREATE:state_trait_khetri_copperfield = {
 	}
 }
 
-# 辛格布姆铜矿带
-REPLACE_OR_CREATE:state_trait_singhbhum_copperfield = {
+REPLACE_OR_CREATE:state_trait_singhbhum_copperfield = {# 辛格布姆铜矿带
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1972,8 +1961,7 @@ REPLACE_OR_CREATE:state_trait_ani_copperfield = {
 	}
 }
 
-# 杰兹卡兹甘铜矿区
-REPLACE_OR_CREATE:state_trait_zhezkazgan_copperfield = {
+REPLACE_OR_CREATE:state_trait_zhezkazgan_copperfield = {# 杰兹卡兹甘铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1981,8 +1969,7 @@ REPLACE_OR_CREATE:state_trait_zhezkazgan_copperfield = {
 	}
 }
 
-# 肯尼科特铜矿区
-REPLACE_OR_CREATE:state_trait_kennecott_copperfield = {
+REPLACE_OR_CREATE:state_trait_kennecott_copperfield = {# 肯尼科特铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1990,8 +1977,7 @@ REPLACE_OR_CREATE:state_trait_kennecott_copperfield = {
 	}
 }
 
-# 达克敦铜矿盆地
-REPLACE_OR_CREATE:state_trait_ducktown_copper_basin = {
+REPLACE_OR_CREATE:state_trait_ducktown_copper_basin = {# 达克敦铜矿盆地
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -1999,8 +1985,7 @@ REPLACE_OR_CREATE:state_trait_ducktown_copper_basin = {
 	}
 }
 
-# 佛蒙特铜矿带
-REPLACE_OR_CREATE:state_trait_vermont_copperfield = {
+REPLACE_OR_CREATE:state_trait_vermont_copperfield = {# 佛蒙特铜矿带
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -2008,11 +1993,60 @@ REPLACE_OR_CREATE:state_trait_vermont_copperfield = {
 	}
 }
 
-# 奥基普铜矿区
-REPLACE_OR_CREATE:state_trait_okiep_copperfield = {
+REPLACE_OR_CREATE:state_trait_okiep_copperfield = {# 奥基普铜矿区
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
 		building_copper_mine_throughput_add = 0.15
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_del_ebre_delta = {#埃布尔河三角洲
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add = 0.1
+		state_infrastructure_add = 10
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_po_vally = {#波河河谷
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.15
+		building_group_bg_plantations_throughput_add = 0.15
+		state_infrastructure_add = 15
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_bohemian_basin = {#波西米亚盆地
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add = 0.1
+		state_infrastructure_add = 15
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_nara_basin = {#奈良盆地
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		state_infrastructure_add = 10
+		building_group_bg_agriculture_throughput_add = 0.15
+		building_group_bg_plantations_throughput_add = 0.15
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_kanto_plain = {#关东平原
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		state_infrastructure_add = 15
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
 	}
 }

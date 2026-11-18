@@ -3,6 +3,33 @@
 }
 
 NPops = {	 
+	# Monthly fractions: multiply by 1200 for annual percent.
+	# Engine-tested: use at most five decimal places and integer SoL thresholds.
+	# Birthrate: 7.092% at SoL 0, declines to 4.392% at 15, then to 0.72% at 32.
+	# Mortality intersects birthrate at SoL 5; net growth peaks at 2.760% at SoL 20 (2.340% at 15).
+	# Mortality reaches 0.552% at SoL 20; final net growth is 0.168% at 32. All segments are continuous.
+	POP_GROWTH_BIRTHRATE_PRETRANSITION_SLOPE = -0.00015
+	POP_GROWTH_BIRTHRATE_TRANSITION_SLOPE = -0.00018
+	POP_GROWTH_BIRTHRATE_TRANSITION_INTERCEPT = 0.00636
+
+	POP_GROWTH_MORTALITY_STARVING_SLOPE = -0.00044
+	POP_GROWTH_MORTALITY_EQUILIBRIUM_TO_GROWTH_MAX_SLOPE = -0.00025
+	POP_GROWTH_MORTALITY_EQUILIBRIUM_TO_GROWTH_MAX_INTERCEPT = 0.00546
+	POP_GROWTH_MORTALITY_GROWTH_MAX_TO_STABLE_SLOPE = 0.00000
+	POP_GROWTH_MORTALITY_GROWTH_MAX_TO_STABLE_INTERCEPT = 0.00046
+
+	POP_GROWTH_MIN_BIRTHRATE = 0.00060
+	# Despite its name, MAX_BIRTHRATE is the SoL 0 intercept in the base-rate formula.
+	POP_GROWTH_MAX_BIRTHRATE = 0.00591
+	POP_GROWTH_MIN_MORTALITY = 0.00046
+	POP_GROWTH_MAX_MORTALITY = 0.00736
+
+	# Integer segment boundaries; EQUILIBRIUM_SOL is the mortality bend, not the zero-growth point.
+	POP_GROWTH_EQUILIBRIUM_SOL = 10
+	POP_GROWTH_TRANSITION_SOL = 15
+	POP_GROWTH_MAX_SOL = 20
+	POP_GROWTH_STABLE_SOL = 32
+
 	WORKING_ADULT_RATIO_BASE = 0.35
 	DEPENDENT_CONSUMPTION_RATIO = 0.75
 
@@ -24,4 +51,6 @@ NMilitary = {
     BLOCKADE_WORLD_MARKET_ACCESS_IMPACT_SCALING = 0.95            # Reduction of world market access for blockaded world market hubs, scales against blockade level
     BLOCKADE_SHIPPING_LANE_IMPACT_SCALING = 0.95                # Reduction of efficiency for blockaded shipping lanes, scales against blockade level of either start or end point, whichever is most blockaded
 }
+
+
 

@@ -13,7 +13,7 @@ REPLACE_OR_CREATE:state_trait_trent_river = {#特伦特河
 	
 	modifier = {
 		state_infrastructure_add = 20
-		state_market_access_price_impact = 0.05
+		state_market_access_price_impact = 0.025
 		battle_defense_owned_province_mult = 0.025
 	}
 }
@@ -23,7 +23,7 @@ REPLACE_OR_CREATE:state_trait_humber_river = {#亨伯河口
 	
 	modifier = {
 		state_infrastructure_add = 25
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.05
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.1
 	}
@@ -52,7 +52,7 @@ REPLACE_OR_CREATE:state_trait_hull_river = {#赫尔河
 	
 	modifier = {
 		state_infrastructure_add = 20
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.05
 	}
 }
 
@@ -61,7 +61,7 @@ REPLACE_OR_CREATE:state_trait_severn_river = {#塞文河
 	
 	modifier = {
 		state_infrastructure_add = 20
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.05
 	}
 }
 
@@ -240,7 +240,7 @@ REPLACE_OR_CREATE:state_trait_missouri_river = {#密苏里河
 		state_infrastructure_add = 20
 		state_market_access_price_impact = 0.05
 		building_group_bg_agriculture_throughput_add = 0.1
-		building_group_bg_plantations_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add = 0.1
 		battle_defense_owned_province_mult = 0.05
 	}
 }
@@ -322,7 +322,7 @@ REPLACE_OR_CREATE:state_trait_shinano_river = {#信浓川
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 25
+		state_infrastructure_add = 15
 		state_market_access_price_impact = 0.025
 	}
 }
@@ -331,8 +331,8 @@ REPLACE_OR_CREATE:state_trait_tone_river = {#利根川
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 25
-		state_market_access_price_impact = 0.025
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05
 	}
 }
 
@@ -340,7 +340,16 @@ REPLACE_OR_CREATE:state_trait_kiso_river = {#木曾川
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 25
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_ota_river = {#太田川
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 10
 		state_market_access_price_impact = 0.025
 	}
 }
@@ -349,7 +358,7 @@ REPLACE_OR_CREATE:state_trait_yodo_river = {#淀川
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 25
+		state_infrastructure_add = 15
 		state_market_access_price_impact = 0.025
 	}
 }
@@ -562,9 +571,9 @@ REPLACE_OR_CREATE:state_trait_elbe_river = {
 REPLACE_OR_CREATE:state_trait_guadalquivir = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	modifier = {
-		state_infrastructure_add = 10
+		state_infrastructure_add = 20
 		state_market_access_price_impact = 0.025
-		battle_defense_owned_province_mult = 0.025
+		battle_defense_owned_province_mult = 0.05
 	}
 }
 
@@ -631,7 +640,7 @@ REPLACE_OR_CREATE:state_trait_congo_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		state_infrastructure_add = 30
 		state_market_access_price_impact = 0.05
 		battle_defense_owned_province_mult = 0.1
 	}
@@ -653,7 +662,7 @@ REPLACE_OR_CREATE:state_trait_kapuas_river = {
 	modifier = {
 		state_infrastructure_add = 15
 		state_market_access_price_impact = 0.025
-		battle_defense_owned_province_mult = 0.95
+		battle_defense_owned_province_mult = 0.05
 	}
 }
 
@@ -922,7 +931,7 @@ REPLACE_OR_CREATE:state_trait_genoa_port = {#热那亚港
 		building_group_bg_ship_construction_employee_mult = -0.1
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.15
-		state_trade_capacity_mult = 0.15
+		state_trade_capacity_mult = 0.2
 		state_market_access_price_impact = 0.075
 		state_building_construction_sector_max_level_add = 5	
 	}
@@ -1089,16 +1098,14 @@ REPLACE_OR_CREATE:state_trait_singapore_port = {#新加坡港
 	}
 }
 
-REPLACE_OR_CREATE:state_trait_gibraltar_port = {#直布罗陀港
+REPLACE_OR_CREATE:state_trait_gibraltar_port = {#直布罗陀巨岩
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
-		building_group_bg_ship_construction_employee_mult = -0.1
 		building_shipyard_throughput_add = 0.1	
-		building_port_throughput_add = 0.15
-		state_trade_capacity_mult = 0.25
+		building_port_throughput_add = 0.1
+		state_trade_capacity_mult = 0.15
 		battle_defense_owned_province_mult = 0.15
-		state_market_access_price_impact = 0.05
 		state_building_construction_sector_max_level_add = -5
 	}
 }
@@ -1122,7 +1129,7 @@ REPLACE_OR_CREATE:state_trait_chesapeake_bay = {#切萨皮克湾
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05	
+		state_market_access_price_impact = 0.075
 	}
 }
 
@@ -1134,7 +1141,7 @@ REPLACE_OR_CREATE:state_trait_portland_port = {#波特兰港
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05	
+		state_market_access_price_impact = 0.075	
 	}
 }
 
@@ -1145,7 +1152,7 @@ REPLACE_OR_CREATE:state_trait_saronic_gulf = {#雅典
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05	
+		state_market_access_price_impact = 0.075
 	}
 }
 
@@ -1156,7 +1163,7 @@ REPLACE_OR_CREATE:state_trait_galle_harbor = {#锡兰湾
 		building_shipyard_throughput_add = 0.1
         building_port_throughput_add = 0.1
         state_trade_capacity_mult = 0.15
-        state_market_access_price_impact = 0.05	
+        state_market_access_price_impact = 0.075	
 	}
 }
 
@@ -1175,11 +1182,12 @@ REPLACE_OR_CREATE:state_trait_ria_of_ferrol = {
 REPLACE_OR_CREATE:state_trait_gulf_of_trieste = {#伊斯特里亚
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 
-	modifier= {
+	modifier = {
+		building_group_bg_ship_construction_employee_mult = -0.1
 		building_shipyard_throughput_add = 0.1
         building_port_throughput_add = 0.1
         state_trade_capacity_mult = 0.15
-        state_market_access_price_impact = 0.05	
+        state_market_access_price_impact = 0.075	
 	}
 }
 
@@ -1191,7 +1199,7 @@ REPLACE_OR_CREATE:state_trait_manila_bay = {
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05	
+		state_market_access_price_impact = 0.075	
 	}
 }
 
@@ -1203,7 +1211,7 @@ REPLACE_OR_CREATE:state_trait_seto_inland_sea = {
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05	
+		state_market_access_price_impact = 0.05
 	}
 }
 
@@ -1547,6 +1555,19 @@ REPLACE_OR_CREATE:state_trait_toulon_port = {#土伦港
 	}
 }
 
+REPLACE_OR_CREATE:state_trait_liverpool_port = {#利物浦港
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+		building_group_bg_ship_construction_employee_mult = -0.1
+		building_shipyard_throughput_add = 0.1
+		building_port_throughput_add = 0.1
+		state_trade_capacity_mult = 0.15
+		state_market_access_price_impact = 0.075		
+		state_building_construction_sector_max_level_add = 5
+	}
+}
+
 REPLACE_OR_CREATE:state_trait_mumbai_port = {#孟买港区
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
@@ -1608,14 +1629,15 @@ REPLACE_OR_CREATE:state_trait_guantanamo_bay = {#关塔那摩湾
 	}
 }
 
-REPLACE_OR_CREATE:state_trait_bay_of_cadiz = {
+REPLACE_OR_CREATE:state_trait_bay_of_cadiz = {#加的斯湾
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	modifier = {
 		building_group_bg_ship_construction_employee_mult = -0.1
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05
+		state_market_access_price_impact = 0.075
+		state_building_construction_sector_max_level_add = 5
 	}
 }
 
@@ -1626,7 +1648,8 @@ REPLACE_OR_CREATE:state_trait_bay_of_cartagena = {
 		building_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_market_access_price_impact = 0.05
+		state_market_access_price_impact = 0.075
+		state_building_construction_sector_max_level_add = 5
 	}
 }
 
@@ -1726,6 +1749,30 @@ REPLACE_OR_CREATE:state_trait_hamburger_hafen = {#汉堡港
 	}
 }
 
+REPLACE_OR_CREATE:state_trait_ningbo_port = {#宁波港
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	modifier = {
+		building_group_bg_ship_construction_employee_mult = -0.15
+		building_shipyard_throughput_add = 0.2
+		building_port_throughput_add = 0.25
+		state_trade_capacity_mult = 0.33
+		state_market_access_price_impact = 0.075	
+		state_building_construction_sector_max_level_add = 5
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_cape_town_port = {#开普敦港
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	modifier = {
+		building_group_bg_ship_construction_employee_mult = -0.1
+		building_shipyard_throughput_add = 0.1
+		building_port_throughput_add = 0.15
+		state_trade_capacity_mult = 0.15
+		state_market_access_price_impact = 0.075	
+		state_building_construction_sector_max_level_add = 5
+	}
+}
+
 REPLACE_OR_CREATE:state_trait_venetian_lagoon = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	modifier = {
@@ -1756,5 +1803,51 @@ REPLACE_OR_CREATE:state_trait_cap_vert = {
 		state_trade_capacity_mult = 0.25
 		#state_building_naval_administration_max_level_add = 3
 		state_market_access_price_impact = 0.05
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_hudson_river = {#哈德逊河
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.025
+		battle_defense_owned_province_mult = 0.05
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_guadiana_river = {#瓜迪亚纳河
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.025
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_maritsa_river = {#马里查河
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 10
+		state_market_access_price_impact = 0.025
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_athabasca_river = {#阿萨巴斯卡河
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 10
+		state_market_access_price_impact = 0.025
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_kitakami_river = {#北上川
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 15
+		state_market_access_price_impact = 0.025
 	}
 }
